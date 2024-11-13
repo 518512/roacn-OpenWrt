@@ -8,6 +8,7 @@ luci-app-ddns
 luci-app-firewall
 luci-app-mosdns
 luci-app-nlbwmon
+luci-app-openclash
 luci-app-opkg
 luci-app-passwall
 luci-app-pushbot
