@@ -6,9 +6,7 @@ CONFIG_CCACHE=y
 CONFIG_NODEJS_14=y
 CONFIG_NODEJS_18 is not set
 CONFIG_NODEJS_ICU_NONE=y
-#2024113-DEL# CONFIG_PACKAGE_UnblockNeteaseMusic=y
-#2024113-DEL# CONFIG_PACKAGE_UnblockNeteaseMusic-Go=y
-#2024113-DEL# CONFIG_PACKAGE_aliyundrive-webdav=y
+
 # CONFIG_PACKAGE_autosamba is not set
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_blkid=y
@@ -89,7 +87,7 @@ CONFIG_PACKAGE_luci-app-argon-config=y
 # CONFIG_PACKAGE_luci-app-arpbind is not set
 # CONFIG_PACKAGE_luci-app-autoreboot is not set
 # CONFIG_PACKAGE_luci-app-ddns is not set
-#2024113-DEL# CONFIG_PACKAGE_luci-app-diskman=y
+
 CONFIG_PACKAGE_luci-app-mosdns=y
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
 CONFIG_PACKAGE_luci-app-passwall=y
@@ -124,15 +122,15 @@ CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_V2ray_Plugin=y
 CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Trojan=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 # CONFIG_PACKAGE_luci-app-turboacc is not set
-#2024113-DEL# CONFIG_PACKAGE_luci-app-unblockneteasemusic=y
+
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
 # CONFIG_PACKAGE_luci-app-vsftpd is not set
 # CONFIG_PACKAGE_luci-app-wol is not set
 CONFIG_PACKAGE_luci-app-wolplus=y
-#2024113-DEL# CONFIG_PACKAGE_luci-i18n-aliyundrive-webdav-zh-cn=y
+
 CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
-#2024113-DEL# CONFIG_PACKAGE_luci-i18n-diskman-zh-cn=y
+
 CONFIG_PACKAGE_luci-i18n-mosdns-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
