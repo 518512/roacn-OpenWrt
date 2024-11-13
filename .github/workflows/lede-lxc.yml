@@ -179,14 +179,7 @@ jobs:
       run: |
         source $GITHUB_WORKSPACE/common.sh && update_repo
         
-    - name: 启动"${{ matrix.target }}"编译
-      continue-on-error: true
-      run: |
-        curl \
-        -X POST https://api.github.com/repos/${{ github.repository }}/dispatches \
-        -H "Accept: application/vnd.github.everest-preview+json" \
-        -H "Authorization: token ${{ secrets.REPO_TOKEN }}" \
-        -d '{"event_type": "编译${{ env.MATRIX_TARGET }}固件", "client_payload": {"target": "${{ env.MATRIX_TARGET }}"}}'
+
         
   delete-releases-artifacts:
     name: Delete releases artifacts
