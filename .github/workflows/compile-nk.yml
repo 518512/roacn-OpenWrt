@@ -9,7 +9,7 @@
 name: 编译固件-无内核
 on:
   repository_dispatch:
-    types: [启动Lede_lxc_nk编译]
+    types: [编译Lede_lxc_nk固件]
 
 env:
   GITHUB_REPOSITORY_URL: https://github.com/${{ github.repository }}
