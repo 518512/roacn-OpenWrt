@@ -2,6 +2,7 @@ luci-app-adguardhome
 luci-app-argon-config
 luci-app-autoreboot
 luci-app-ddns
+luci-app-filetransfer
 luci-app-firewall
 luci-app-mosdns
 luci-app-nlbwmon
